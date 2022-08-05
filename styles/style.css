@@ -1,0 +1,248 @@
+/* color backraund promo and footer */
+:root {
+  --fon-color: #2f303a;
+}
+
+/* description and contact color */
+:root {
+  --description-color: #757575;
+}
+
+/* active color,button promo and logo color */
+:root {
+  --activ-logo-color: #2196f3;
+}
+
+/* border radius button */
+:root{
+  --border-radius-button:4px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+/* header,footer logo */
+.header-logo,
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-logo span,
+.footer-logo span {
+  color: var(--activ-logo-color);
+}
+
+/* navigation */
+.nav-list li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.nav-list li a:hover {
+  color: var(--activ-logo-color);
+}
+
+.nav-list li a:focus {
+  color: var(--activ-logo-color);
+}
+
+/* contact list */
+.contact-list li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--description-color);
+  text-decoration: none;
+}
+
+.contact-list li a:hover {
+  color: var(--activ-logo-color);
+}
+
+.contact-list li a:focus {
+  color: var(--activ-logo-color);
+}
+
+/* promo block */
+.header-promo {
+  background-color: var(--fon-color);
+}
+
+/* title */
+.header-title {
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* promo button */
+.btn-promo {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding: 10px 30px;
+  background-color: var(--activ-logo-color);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--border-radius-button);
+}
+
+.btn-promo:hover {
+  background-color: #188ce8;
+}
+
+.btn-promo:focus {
+  background-color: #188ce8;
+}
+
+/* hidden title */
+.title-hidden {
+  font-size: 0;
+}
+
+/* title peculiarities */
+.peculiarities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*peculiarities-description */
+.peculiarities-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+
+/* craft title */
+.craft-title,
+.comands-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* specialist name */
+.specialist-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* profession */
+.profession {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--fon-color);
+}
+
+/* adress-list */
+.footer-link-adres {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* footer mail and phone */
+.footer-link-mail,
+.footer-link-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-link-adres:hover,
+.footer-link-mail:hover,
+.footer-link-phone:hover {
+  color: var(--activ-logo-color);
+}
+
+.footer-link-adres:focus,
+.footer-link-mail:focus,
+.footer-link-phone:focus {
+  color: var(--activ-logo-color);
+}
+
+/* portfolio */
+
+/* portfolio title */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* filter-list */
+.filter-btn {
+  border: none;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: var(--border-radius-button);
+}
+
+.filter-btn:hover {
+  background-color: var(--activ-logo-color);
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn:focus {
+  background-color: var(--activ-logo-color);
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* portfolio title hidden */
+.portfolio-title-hidden {
+  font-size: 0;
+}
+
+/* portfolio description */
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}

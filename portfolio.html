@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="top-header">
+      <div class="container">
+        <a class="header-logo" href="./index.html"
+          ><span class="logo-text-left">Web</span>Studio</a
+        >
+        <!-- navigation -->
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Студія</a></li>
+            <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="nav-link" href="#">Контакти</a></li>
+          </ul>
+        </nav>
+        <!-- contact list -->
+        <ul class="contact-list">
+          <li>
+            <svg
+              class="header-icon-mail"
+              width="16"
+              height="12"
+              viewBox="0 0 16 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
+                fill="#757575"
+              />
+            </svg>
+
+            <a class="contact-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <svg
+              class="header-icon-phone"
+              width="10"
+              height="16"
+              viewBox="0 0 10 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z"
+                fill="#757575"
+              />
+            </svg>
+            <a class="contact-tel" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!--header container closed-->
+    </header>
+    <!-- filter list -->
+    <section class="filter">
+      <h2 class="portfolio-title-hidden">Список фільтрованих розділів</h2>
+      <ul class="filter-list">
+        <li class="filter-item">
+          <button class="filter-btn" type="button">Усі</button>
+        </li>
+        <li class="filter-item">
+          <button class="filter-btn" type="button">Веб-сайти</button>
+        </li>
+        <li class="filter-item">
+          <button class="filter-btn" type="button">Додатки</button>
+        </li>
+        <li class="filter-item">
+          <button class="filter-btn" type="button">Дизайн</button>
+        </li>
+        <li class="filter-item">
+          <button class="filter-btn" type="button">Маркетинг</button>
+        </li>
+      </ul>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio">
+      <div class="container">
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img
+              src="./images/techno-crjak.jpg"
+              alt="команда робітників зображені на екрані макбуку"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Технокряк</h3>
+            <p class="portfolio-description">Веб-сайт</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/sports-poster.jpg"
+              alt="два чоловіка грають у баскетбол"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
+            <p class="portfolio-description">Дизайн</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/restaurant.jpg"
+              alt="логотип ресторану Seafood"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Ресторан Seafood</h3>
+            <p class="portfolio-description">Додаток</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/headset.jpg"
+              alt="фото навушників"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Проєкт Prime</h3>
+            <p class="portfolio-description">Маркетинг</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/project-boxes.jpg"
+              alt="якісь коробки"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Проєкт Boxes</h3>
+            <p class="portfolio-description">Додаток</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/photo-monitor.jpg"
+              alt="монітор с зображенням сайту "
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Inspiration has no Borders</h3>
+            <p class="portfolio-description">Веб-сайт</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/book-limited.jpg"
+              alt="фото відкритої книги"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Видання Limited Edition</h3>
+            <p class="portfolio-description">Дизайн</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/project-lab.jpg"
+              alt="бірка с логотипом проекту"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Проєкт LAB</h3>
+            <p class="portfolio-description">Маркетинг</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/laptop-business.jpg"
+              alt="чоловік прцює за макбуком"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-title">Growing Business</h3>
+            <p class="portfolio-description">Додаток</p>
+          </li>
+        </ul>
+      </div>
+      <!--container portfolio closed-->
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo" href="./index.html"
+          ><span class="logo-text-left">Web</span>Studio</a
+        >
+        <address class="footer-adress">
+          <ul class="adress-list">
+            <li>
+              <a
+                class="footer-link-adres"
+                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                rel="noreferrer
+                noopener"
+                target="_blank"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li>
+              <a class="footer-link-mail" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-link-phone" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <!--container footer closed-->
+    </footer>
+  </body>
+</html>
